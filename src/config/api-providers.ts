@@ -38,20 +38,6 @@ export interface ApiProviderPreset {
  */
 export const API_PROVIDER_PRESETS: ApiProviderPreset[] = [
   {
-    id: '302ai',
-    name: '302.AI',
-    supportedCodeTools: ['claude-code', 'codex'],
-    claudeCode: {
-      baseUrl: 'https://api.302.ai/cc',
-      authType: 'api_key',
-    },
-    codex: {
-      baseUrl: 'https://api.302.ai/v1',
-      wireApi: 'responses',
-    },
-    description: '302.AI API Service',
-  },
-  {
     id: 'packycode',
     name: 'PackyCode',
     supportedCodeTools: ['claude-code', 'codex'],
@@ -64,6 +50,72 @@ export const API_PROVIDER_PRESETS: ApiProviderPreset[] = [
       wireApi: 'responses',
     },
     description: 'PackyCode API Service',
+  },
+  {
+    id: 'code0',
+    name: 'code0',
+    supportedCodeTools: ['claude-code', 'codex'],
+    claudeCode: {
+      baseUrl: 'https://code0.ai/v1/anthropic',
+      authType: 'api_key',
+    },
+    codex: {
+      baseUrl: 'https://code0.ai/v1/openai',
+      wireApi: 'responses',
+    },
+    description: 'code0 AI coding workspace API aggregation platform',
+  },
+  {
+    id: 'claude-api',
+    name: 'Claude API',
+    supportedCodeTools: ['claude-code'],
+    claudeCode: {
+      baseUrl: 'https://gw.claudeapi.com',
+      authType: 'api_key',
+    },
+    description: 'Claude API official-channel Claude model provider',
+  },
+  {
+    id: 'pateway',
+    name: 'PatewayAI',
+    supportedCodeTools: ['claude-code', 'codex'],
+    claudeCode: {
+      baseUrl: 'https://api.pateway.ai',
+      authType: 'api_key',
+    },
+    codex: {
+      baseUrl: 'https://api.pateway.ai/v1',
+      wireApi: 'responses',
+    },
+    description: 'PatewayAI official direct-connect relay service',
+  },
+  {
+    id: 'apikey-fun',
+    name: 'APIKEY.FUN',
+    supportedCodeTools: ['claude-code', 'codex'],
+    claudeCode: {
+      baseUrl: 'https://api.apikey.fun',
+      authType: 'auth_token',
+    },
+    codex: {
+      baseUrl: 'https://api.apikey.fun/v1',
+      wireApi: 'responses',
+    },
+    description: 'APIKEY.FUN enterprise AI relay service',
+  },
+  {
+    id: '302ai',
+    name: '302.AI',
+    supportedCodeTools: ['claude-code', 'codex'],
+    claudeCode: {
+      baseUrl: 'https://api.302.ai/cc',
+      authType: 'api_key',
+    },
+    codex: {
+      baseUrl: 'https://api.302.ai/v1',
+      wireApi: 'responses',
+    },
+    description: '302.AI API Service',
   },
   {
     id: 'aicodemirror',
@@ -94,8 +146,38 @@ export const API_PROVIDER_PRESETS: ApiProviderPreset[] = [
     description: 'AICodeMirror China Optimized Line',
   },
   {
-    id: 'glm',
-    name: 'GLM',
+    id: 'crazyrouter',
+    name: 'Crazyrouter',
+    supportedCodeTools: ['claude-code', 'codex'],
+    claudeCode: {
+      baseUrl: 'https://crazyrouter.com',
+      authType: 'api_key',
+    },
+    codex: {
+      baseUrl: 'https://crazyrouter.com/v1',
+      wireApi: 'responses',
+    },
+    description: 'Crazyrouter AI API aggregation gateway',
+  },
+
+  {
+    id: 'aihub',
+    name: 'AIHub',
+    supportedCodeTools: ['claude-code', 'codex'],
+    claudeCode: {
+      baseUrl: 'https://aihub.top',
+      authType: 'api_key',
+    },
+    codex: {
+      baseUrl: 'https://aihub.top/v1',
+      wireApi: 'responses',
+    },
+    description: 'AIHub high-availability AI model API relay platform',
+  },
+
+  {
+    id: 'glm-cn',
+    name: 'GLM CN',
     supportedCodeTools: ['claude-code'],
     claudeCode: {
       baseUrl: 'https://open.bigmodel.cn/api/anthropic',
@@ -104,19 +186,40 @@ export const API_PROVIDER_PRESETS: ApiProviderPreset[] = [
     description: 'GLM (智谱AI)',
   },
   {
+    id: 'z-ai',
+    name: 'Z.ai',
+    supportedCodeTools: ['claude-code'],
+    claudeCode: {
+      baseUrl: 'https://api.z.ai/api/anthropic',
+      authType: 'auth_token',
+    },
+    description: 'Z.ai API Service',
+  },
+  {
+    id: 'bailian-coding',
+    name: 'Bailian Coding',
+    supportedCodeTools: ['claude-code'],
+    claudeCode: {
+      baseUrl: 'https://coding.dashscope.aliyuncs.com/apps/anthropic',
+      authType: 'auth_token',
+      defaultModels: ['glm-5'],
+    },
+    description: 'Bailian Coding API Service',
+  },
+  {
     id: 'minimax',
     name: 'MiniMax',
     supportedCodeTools: ['claude-code'],
     claudeCode: {
-      baseUrl: 'https://api.minimaxi.com/anthropic',
+      baseUrl: 'https://api.minimax.io/anthropic',
       authType: 'auth_token',
-      defaultModels: ['MiniMax-M2', 'MiniMax-M2'],
+      defaultModels: ['MiniMax-M3', 'MiniMax-M2.7-highspeed'],
     },
     description: 'MiniMax API Service',
   },
   {
-    id: 'kimi',
-    name: 'Kimi',
+    id: 'kimi-coding',
+    name: 'Kimi Coding',
     supportedCodeTools: ['claude-code'],
     claudeCode: {
       baseUrl: 'https://api.kimi.com/coding/',
@@ -124,6 +227,18 @@ export const API_PROVIDER_PRESETS: ApiProviderPreset[] = [
     },
     description: 'Kimi (Moonshot AI)',
   },
+  {
+    id: 'deepseek',
+    name: 'DeepSeek',
+    supportedCodeTools: ['claude-code'],
+    claudeCode: {
+      baseUrl: 'https://api.deepseek.com/anthropic',
+      authType: 'auth_token',
+      defaultModels: ['deepseek-v4-pro', 'deepseek-v4-flash'],
+    },
+    description: 'DeepSeek official API (Anthropic-compatible endpoint)',
+  },
+
 ]
 
 /**

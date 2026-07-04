@@ -22,33 +22,6 @@
   </p>
 </div>
 
-## ♥️ スポンサー AI API
-
-[![スポンサー AI API](./src/assets/302.ai-jp.jpg)](https://share.302.ai/gAT9VG)
-[302.AI](https://share.302.ai/gAT9VG) は、従量課金制のエンタープライズ向けAIリソースプラットフォームで、市場で最新かつ最も包括的なAIモデルとAPIに加え、すぐに使える多様なオンラインAIアプリを提供します。
-
----
-
-[![GLM](./src/assets/GLM-en.png)](https://z.ai/subscribe?ic=8JVLJQFSKB)
-このプロジェクトは Z.ai の GLM CODING PLAN によってスポンサーされています。
-GLM CODING PLAN はAIコーディング向けに設計されたサブスクリプションサービスで、月額わずか3ドルから利用できます。Z.aiのフラグシップであるGLM-4.7モデルをはじめ、Claude Code、Cline、Roo Code など10以上の人気AIコーディングツールで高速かつ安定した最先端のコーディング体験を開発者に提供します。
-GLM CODING PLANが10%オフで利用可能：https://z.ai/subscribe?ic=8JVLJQFSKB
-
----
-
-<table>
-<tbody>
-<tr>
-<td width="180"><a href="https://www.packyapi.com/register?aff=zcf"><img src="./src/assets/packycode.png" alt="PackyCode" width="150"></a></td>
-<td>PackyCode がこのプロジェクトを支援してくれました！PackyCode は信頼性と効率性の高いAPI中継サービスプロバイダーで、Claude Code、Codex、Gemini などの中継サービスを提供します。PackyCode はこのソフトウェアのユーザーに特別な割引を提供します：<a href="https://www.packyapi.com/register?aff=zcf">このリンク</a> を使用して登録し、再課金時に "zcf" プロモーションコードを入力すると 10% 割引を享受できます。</td>
-</tr>
-<tr>
-<td width="180"><a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF"><img src="./src/assets/AICodeMirror.jpg" alt="AICodeMirror" width="150"></a></td>
-<td>AICodeMirror がこのプロジェクトをスポンサーしてくれたことに感謝します！AICodeMirror は Claude Code/Codex/Gemini CLI の公式高安定性中継サービスを提供し、エンタープライズレベルの高並行処理、迅速な請求書発行、7x24 専用技術サポートをサポートしています。Claude Code/Codex/Gemini の公式チャネルは最大 3.8/0.2/10.9 割引で、チャージでさらに割引があります！AICodeMirror は ZCF ユーザーに特別な特典を提供しています：<a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF">このリンク</a>から登録したユーザーは初回チャージ 20% オフ、企業顧客は最大 25% オフを享受できます！</td>
-</tr>
-<tbody>
-</table>
-
 ## 🚀 クイックスタート
 
 - 推奨：`npx zcf` でインタラクティブメニューを開き、必要な操作を選択。
@@ -72,6 +45,59 @@ npx zcf i -s -p 302ai -k "sk-xxx"
 
 - https://zcf.ufomiao.com/ja-JP/
 
+## ♥️ スポンサー
+
+[![GLM](./src/assets/GLM-en.png)](https://z.ai/subscribe?ic=8JVLJQFSKB)
+このプロジェクトは Z.ai の GLM CODING PLAN によってスポンサーされています。
+GLM CODING PLAN はAIコーディング向けに設計されたサブスクリプションサービスで、月額わずか10ドルから利用できます。Z.aiのフラグシップである GLM-4.7 および（GLM-5 は Pro ユーザーのみ利用可能）を、Claude Code、Cline、Roo Code など10以上の人気AIコーディングツールで利用でき、開発者に高速かつ安定した最先端のコーディング体験を提供します。
+GLM CODING PLANが10%オフで利用可能：https://z.ai/subscribe?ic=8JVLJQFSKB
+
+---
+
+[![スポンサー code0](./src/assets/code0-en.jpg)](https://code0.ai?source=zcf)
+[code0.ai](https://code0.ai?source=zcf) がこのプロジェクトをスポンサーしてくれたことに感謝します！[code0.ai](http://code0.ai) は、開発者と技術チーム向けの AI コーディングワークスペースで、Claude Code や Codex などの主流な Agent コーディング能力を集約しています。コード生成、プロジェクト理解、デバッグ、コードレビュー、ドキュメント生成などの一般的な開発シナリオをサポートしており、個人開発者、Agent エンジニア、オープンソースメンテナー、企業の研究開発チームに適しています。請求書発行とチーム導入もサポートしています。[専用リンク](https://code0.ai?source=zcf)から登録し、カスタマーサポートに連絡すると、無料のテストクレジットを受け取り、より効率的な AI コーディングワークフローを体験できます。
+
+---
+
+[![スポンサー Claude API](./src/assets/claude-api-en.jpg)](https://console.claudeapi.com?source=zcf)
+[Claude API](https://console.claudeapi.com?source=zcf) がこのプロジェクトをスポンサーしてくれたことに感謝します！Claude API は、Claude モデルに特化した公式チャネルの API プロバイダーです。Anthropic 公式キーと AWS Bedrock 公式チャネルを基盤とし、Claude Code や Agent アプリケーションへの安定した統合体験を提供し、Claude 全シリーズモデルをサポートし、Tool Use や長いコンテキストなどの公式機能を保持しています。サービスはリバースエンジニアリングされておらず、モデル能力を低下させることはありません。Claude Code のヘビーユーザー、Agent エンジニア、企業の技術チームに適しています。[専用リンク](https://console.claudeapi.com?source=zcf)から登録し、カスタマーサポートに連絡すると、無料のテストクレジットを受け取れます。請求書発行とチーム導入もサポートされています。
+
+---
+
+[![スポンサー PatewayAI](./src/assets/pateway.ai-en.png)](https://pateway.ai/?ch=vnr0h5&aff=9AWWH87C)
+PatewayAI はヘビーな AI 開発者向けに、公式直接接続に特化した高品質モデル API 中継サービスプロバイダーで、Claude 全系列と Codex 系列モデルを提供します。100% 公式ソース直供給で、不純物なし、検証可能。課金は透明で、トークンレベルの請求書を 1 件ずつ照合できます。エンタープライズレベルの高並行性に対応し、企業顧客向けに専用管理プラットフォームを提供、正式契約締結と請求書発行も可能です。PatewayAI は ZCF ユーザー専用特典を提供：<a href="https://pateway.ai/?ch=vnr0h5&aff=9AWWH87C">このリンク</a>から登録すると $3 のトライアルクレジットを即時プレゼント、チャージは最大 60% オフ、招待は双方向ボーナスで報酬は最大 $150！
+
+---
+
+[![スポンサー AI API](./src/assets/302.ai-jp.jpg)](https://share.302.ai/gAT9VG)
+[302.AI](https://share.302.ai/gAT9VG) は、従量課金制のエンタープライズ向けAIリソースプラットフォームで、市場で最新かつ最も包括的なAIモデルとAPIに加え、すぐに使える多様なオンラインAIアプリを提供します。
+
+<table>
+<tbody>
+<tr>
+<td width="180"><a href="https://www.packyapi.com/register?aff=zcf"><img src="./src/assets/packycode.png" alt="PackyCode" width="150"></a></td>
+<td>PackyCode がこのプロジェクトを支援してくれました！PackyCode は信頼性と効率性の高いAPI中継サービスプロバイダーで、Claude Code、Codex、Gemini などの中継サービスを提供します。PackyCode はこのソフトウェアのユーザーに特別な割引を提供します：<a href="https://www.packyapi.com/register?aff=zcf">このリンク</a> を使用して登録し、再課金時に "zcf" プロモーションコードを入力すると 10% 割引を享受できます。</td>
+</tr>
+<tr>
+<td width="180"><a href="https://apikey.fun/register?aff=ZCFZCF"><img src="./src/assets/apikey-fun.png" alt="APIKEY.FUN" width="150"></a></td>
+<td>APIKEY.FUN のご支援に感謝します！APIKEY.FUN は企業および個人開発者向けに、安定・高効率・低コストな AI モデル API 接続を提供する、プロフェッショナルなエンタープライズ向け AI 中継プラットフォームです。Claude、OpenAI、Gemini などの主要モデルに対応し、価格は公式の 7% まで低減可能です。<a href="https://apikey.fun/register?aff=ZCFZCF">この専用リンク</a>から登録すると、チャージ永久 95 折（5% オフ）の特典を受けられます。</td>
+</tr>
+<tr>
+<td width="180"><a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF"><img src="./src/assets/AICodeMirror.jpg" alt="AICodeMirror" width="150"></a></td>
+<td>AICodeMirror がこのプロジェクトをスポンサーしてくれたことに感謝します！AICodeMirror は Claude Code/Codex/Gemini CLI の公式高安定性中継サービスを提供し、エンタープライズレベルの高並行処理、迅速な請求書発行、7x24 専用技術サポートをサポートしています。Claude Code/Codex/Gemini の公式チャネルは最大 3.8/0.2/10.9 割引で、チャージでさらに割引があります！AICodeMirror は ZCF ユーザーに特別な特典を提供しています：<a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF">このリンク</a>から登録したユーザーは初回チャージ 20% オフ、企業顧客は最大 25% オフを享受できます！</td>
+</tr>
+<tr>
+<td width="180"><a href="https://crazyrouter.com/?utm_source=github&utm_medium=sponsor&utm_campaign=zcf&aff=yJFo"><img src="./src/assets/crazyrouter.svg" alt="Crazyrouter" width="150"></a></td>
+<td>Crazyrouter のスポンサーに感謝します！Crazyrouter は高性能 AI API 集約ゲートウェイです — 1つの API キーで 300+ モデル（GPT、Claude、Gemini、DeepSeek など）を利用可能。全モデル公式価格の 55% で提供、自動フェイルオーバー、スマートルーティング、無制限同時接続に対応。OpenAI 完全互換で、Claude Code、Codex、Gemini CLI とシームレスに連携。ZCF ユーザー限定特典：<a href="https://crazyrouter.com/?utm_source=github&utm_medium=sponsor&utm_campaign=zcf&aff=yJFo">こちらのリンク</a>から登録すると $2 の無料クレジットを即時プレゼント！</td>
+</tr>
+<tr>
+<td width="180"><a href="https://aihub.top/register?aff=ZYD5VXBARHD8"><img src="./src/assets/aihub.jpg" alt="AIHub" width="150"></a></td>
+<td>AIHub のスポンサーに感謝します！AIHub は、個人開発者と企業チーム向けの高可用性 AI モデル API 中継プラットフォームで、Codex および Claude Code を公式価格の約 1 割以下で提供します。<a href="https://aihub.top/register?aff=ZYD5VXBARHD8">このリンク</a>から登録し、プロモーションコード <strong>ZCF</strong> を入力すると、$3 のテストクレジットを受け取れます。</td>
+</tr>
+
+</tbody>
+</table>
+
 ## 💬 コミュニティ
 
 Telegramグループに参加して、サポートやディスカッション、アップデート情報を入手しましょう：
@@ -88,7 +114,7 @@ Telegramグループに参加して、サポートやディスカッション、
 - [ccusage](https://github.com/ryoppippi/ccusage)
 - [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD)
 
-これらのコミュニティ貢献者の皆さまに心より感謝いたします！
+これらのコミュニティ貢献者のシェアに感謝します！
 
 
 ## ❤️ サポートとスポンサー
@@ -113,8 +139,15 @@ Telegramグループに参加して、サポートやディスカッション、
 - [302.AI](https://share.302.ai/gAT9VG)（最初の企業スポンサー 🤠）
 - [GLM](https://z.ai/subscribe?ic=8JVLJQFSKB)（最初のAIモデルスポンサー 🤖）
 - [PackyCode](https://www.packyapi.com/register?aff=zcf)（最初のAPIプロキシサービススポンサー 🧝🏻‍♀️）
+- [APIKEY.FUN](https://apikey.fun/register?aff=ZCFZCF)（企業向け AI 中継スポンサー 🎁）
 - [AICodeMirror](https://www.aicodemirror.com/register?invitecode=ZCFZCF)（公式高安定性中継サービススポンサー 🪞）
 - [UUCode](https://www.uucode.org/auth?ref=JQ2DJ1T8)（$100 プロキシクレジットを提供 💰）
+- [Crazyrouter](https://crazyrouter.com/?utm_source=github&utm_medium=sponsor&utm_campaign=zcf&aff=yJFo)（AI API 集約ゲートウェイスポンサー 🚀）
+- [PatewayAI](https://pateway.ai/?ch=vnr0h5&aff=9AWWH87C)（公式直接接続中継サービススポンサー 🛡️）
+- [code0](https://code0.ai?source=zcf)（AI コーディングワークスペーススポンサー 🎁）
+- [Claude API](https://console.claudeapi.com?source=zcf)（Claude 公式 API プロバイダースポンサー 🎁）
+
+- [AIHub](https://aihub.top/register?aff=ZYD5VXBARHD8)（高可用性 AI API 中継プラットフォームスポンサー 🎁）
 
 【個人スポンサー】
 
@@ -128,6 +161,7 @@ Telegramグループに参加して、サポートやディスカッション、
 - 初屿贤（最初のCodexユーザースポンサー 🙅🏻‍♂️）
 - Protein（最初の1688スポンサー 😏）
 - [musistudio](https://github.com/musistudio)（最初のオープンソースプロジェクト作者スポンサー、[CCR](https://github.com/musistudio/claude-code-router) の作者です 🤩）
+- \*年（初の100元スポンサー 💴）
 - [BeatSeat](https://github.com/BeatSeat)（コミュニティエキスパート 😎、$1000 Claude クレジットを提供）
 - [wenwen](https://github.com/wenwen12345)（コミュニティエキスパート 🤓、毎日 $100 Claude&GPT クレジットを提供）
 - 16°C coffee（私の親友 🤪、ChatGPT Pro $200パッケージを提供）

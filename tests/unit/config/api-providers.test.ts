@@ -80,6 +80,33 @@ describe('aPI Provider Configuration', () => {
       expect(provider302!.codex!.wireApi).toBe('responses')
     })
 
+    it('minimax provider should have correct configuration', () => {
+      const provider = API_PROVIDER_PRESETS.find(p => p.id === 'minimax')
+      expect(provider).toBeDefined()
+      expect(provider!.name).toBe('MiniMax')
+      expect(provider!.supportedCodeTools).toContain('claude-code')
+      expect(provider!.claudeCode?.baseUrl).toBe('https://api.minimax.io/anthropic')
+      expect(provider!.claudeCode?.authType).toBe('auth_token')
+      expect(provider!.claudeCode?.defaultModels).toEqual(['MiniMax-M3', 'MiniMax-M2.7-highspeed'])
+    })
+
+    it('bailian-coding provider should use lowercase glm-5 default model', () => {
+      const provider = API_PROVIDER_PRESETS.find(p => p.id === 'bailian-coding')
+      expect(provider).toBeDefined()
+      expect(provider!.claudeCode?.defaultModels).toEqual(['glm-5'])
+    })
+
+    it('deepseek provider should have correct configuration', () => {
+      const provider = API_PROVIDER_PRESETS.find(p => p.id === 'deepseek')
+      expect(provider).toBeDefined()
+      expect(provider!.name).toBe('DeepSeek')
+      expect(provider!.supportedCodeTools).toContain('claude-code')
+      expect(provider!.claudeCode?.baseUrl).toBe('https://api.deepseek.com/anthropic')
+      expect(provider!.claudeCode?.authType).toBe('auth_token')
+      // Order matters: [primary, haiku, sonnet, opus] — pro is the primary, flash maps to haiku
+      expect(provider!.claudeCode?.defaultModels).toEqual(['deepseek-v4-pro', 'deepseek-v4-flash'])
+    })
+
     it('providers with claudeCode config should have valid authType', () => {
       API_PROVIDER_PRESETS.forEach((provider) => {
         if (provider.claudeCode) {

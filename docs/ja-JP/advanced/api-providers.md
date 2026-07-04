@@ -16,6 +16,7 @@ ZCFは現在、以下のAPIプロバイダープリセットをサポートし�
 | `packycode` | PackyCode | PackyCode APIサービス | ✅ | ✅ | `auth_token` |
 | `aicodemirror` | AICodeMirror | グローバル高品質回線 | ✅ | ✅ | `auth_token` |
 | `aicodemirror-cn` | AICodeMirror CN | 中国最適化回線 | ✅ | ✅ | `auth_token` |
+| `crazyrouter` | Crazyrouter | AI API 集約ゲートウェイ | ✅ | ✅ | `api_key` |
 | `glm` | GLM (智譜AI) | 智譜AIサービス | ✅ | ✅ | `auth_token` |
 | `minimax` | MiniMax | MiniMax APIサービス | ✅ | ✅ | `auth_token` |
 | `kimi` | Kimi (月の暗面) | Moonshot AIサービス | ✅ | ✅ | `auth_token` |
@@ -96,6 +97,32 @@ npx zcf init -s -p aicodemirror-cn -k "your-auth-token"
 npx zcf init -s -T codex -p aicodemirror-cn -k "your-auth-token"
 ```
 
+### Crazyrouter
+
+**公式リンク**: [Crazyrouter](https://crazyrouter.com)
+
+**特徴**:
+- 🚀 高性能 AI API 集約ゲートウェイ
+- 🔑 1つの API キーで 300+ モデル（GPT、Claude、Gemini、DeepSeek など）
+- 💰 全モデル公式価格の 55%
+- 🔄 自動フェイルオーバー、スマートルーティング、無制限同時接続
+- ✅ OpenAI 完全互換、Claude Code・Codex・Gemini CLI とシームレス連携
+
+**設定情報**:
+- **Claude Code Base URL**: `https://crazyrouter.com`
+- **Codex Base URL**: `https://crazyrouter.com/v1`
+- **認証方式**: `api_key`
+- **Codex Wire API**: `responses`
+
+**使用例**:
+```bash
+# Claude Code
+npx zcf init -s -p crazyrouter -k "your-api-key"
+
+# Codex
+npx zcf init -s -T codex -p crazyrouter -k "your-api-key"
+```
+
 ### GLM (智譜AI)
 
 **プロバイダー名**: 智譜AI (GLM)
@@ -126,18 +153,17 @@ npx zcf init -s -T codex -p glm -k "your-auth-token"
 
 **プロバイダー名**: MiniMax
 
+**公式リンク**: [MiniMax プラットフォーム](https://platform.minimax.io)
+
 **特徴**:
-- 🎯 AIモデルサービスに焦点
-- 💡 複数のアプリケーションシナリオをサポート
-- 🔧 柔軟な設定オプション
+- 🎯 高性能AIモデル (MiniMax-M3)
+- 💡 204,800トークンのコンテキストウィンドウ、最大192K出力
+- 🔧 Anthropic互換API、Claude Code対応
 
 **設定情報**:
-- **Claude Code Base URL**: `https://api.minimaxi.com/anthropic`
-- **Codex Base URL**: `https://api.minimaxi.com/v1`
+- **Claude Code Base URL**: `https://api.minimax.io/anthropic`
 - **認証方式**: `auth_token`
-- **Codex Wire API**: `chat`
-- **Claude Code デフォルトモデル**: `MiniMax-M2`
-- **Codex デフォルトモデル**: `MiniMax-M2`
+- **Claude Code デフォルトモデル**: `MiniMax-M3`（メイン）、`MiniMax-M2.7-highspeed`（高速）
 
 **使用例**:
 ```bash

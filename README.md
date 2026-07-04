@@ -22,36 +22,9 @@
 </p>
 </div>
 
-## ♥️ Sponsor AI API
-
-[![Sponsor AI API](./src/assets/302.ai-en.jpg)](https://share.302.ai/gAT9VG)
-[302.AI](https://share.302.ai/gAT9VG) is a pay-as-you-go enterprise AI resource hub that offers the latest and most comprehensive AI models and APIs on the market, along with a variety of ready-to-use online AI applications.
-
----
-
-[![GLM](./src/assets/GLM-en.png)](https://z.ai/subscribe?ic=8JVLJQFSKB)
-This project is sponsored by Z.ai, supporting us with their GLM CODING PLAN.
-GLM CODING PLAN is a subscription service designed for AI coding, starting at just $3/month. It provides access to their flagship GLM-4.7 model across 10+ popular AI coding tools (Claude Code, Cline, Roo Code, etc.), offering developers top-tier, fast, and stable coding experiences.
-Get 10% OFF GLM CODING PLAN：https://z.ai/subscribe?ic=8JVLJQFSKB
-
----
-
-<table>
-<tbody>
-<tr>
-<td width="180"><a href="https://www.packyapi.com/register?aff=zcf"><img src="./src/assets/packycode.png" alt="PackyCode" width="150"></a></td>
-<td>Thanks to PackyCode for sponsoring this project! PackyCode is a reliable and efficient API relay service provider, offering relay services for Claude Code, Codex, Gemini, and more. PackyCode provides special discounts for our software users: register using  <a href="https://www.packyapi.com/register?aff=zcf">this link</a>  and enter the "zcf" promo code during recharge to get 10% off.</td>
-</tr>
-<tr>
-<td width="180"><a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF"><img src="./src/assets/AICodeMirror.jpg" alt="AICodeMirror" width="150"></a></td>
-<td>Thanks to AICodeMirror for sponsoring this project! AICodeMirror provides official high-stability relay services for Claude Code/Codex/Gemini CLI, supporting enterprise-level high concurrency, fast invoicing, and 7x24 dedicated technical support. Official channels for Claude Code/Codex/Gemini at discounts as low as 38%/2%/10.9% off, with additional discounts on top-ups! AICodeMirror offers special benefits for ZCF users: users who register through <a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF">this link</a> can enjoy 20% off on first top-up, and enterprise customers can get up to 25% off!</td>
-</tr>
-<tbody>
-</table>
-
 ## 🚀 Quick Start
 
-- Recommended: `npx zcf` opens the interactive menu and guides you through install/update.
+- Recommended: `npx zcf` opens the interactive menu — pick what you need.
 - Common commands:
 
 ```bash
@@ -72,6 +45,60 @@ More usage, options, and workflows: see documentation.
 
 - https://zcf.ufomiao.com/
 
+## ♥️ Sponsors
+
+[![GLM](./src/assets/GLM-en.png)](https://z.ai/subscribe?ic=8JVLJQFSKB)
+
+This project is sponsored by Z.ai, supporting us with their GLM CODING PLAN.
+GLM CODING PLAN is a subscription service designed for AI coding, starting at just $10/month. It provides access to their flagship GLM-4.7 & （GLM-5 Only Available  for Pro Users）model across 10+ popular AI coding tools (Claude Code, Cline, Roo Code, etc.), offering developers top-tier, fast, and stable coding experiences.
+Get 10% OFF GLM CODING PLAN：https://z.ai/subscribe?ic=8JVLJQFSKB
+
+---
+
+[![Sponsor code0](./src/assets/code0-en.jpg)](https://code0.ai?source=zcf)
+Thanks to [code0.ai](https://code0.ai?source=zcf) for sponsoring this project! [code0.ai](http://code0.ai) is an AI coding workspace for developers and technical teams, bringing together mainstream Agent coding capabilities such as Claude Code and Codex. It supports common development scenarios including code generation, project understanding, debugging, code review, and documentation. It is suitable for independent developers, Agent engineers, open-source maintainers, and enterprise R&D teams, with invoicing and team onboarding supported. Register through the [exclusive link](https://code0.ai?source=zcf) and contact customer support to claim free test credits and experience a more efficient AI coding workflow.
+
+---
+
+[![Sponsor Claude API](./src/assets/claude-api-en.jpg)](https://console.claudeapi.com?source=zcf)
+Thanks to [Claude API](https://console.claudeapi.com?source=zcf) for sponsoring this project! Claude API is an official-channel API provider focused on Claude models. Built on Anthropic official keys and AWS Bedrock official channels, it provides a stable integration experience for Claude Code and Agent applications, supports the full Claude model family, and preserves official capabilities such as Tool Use and long context. The service is not reverse-engineered and does not downgrade model capabilities, making it suitable for heavy Claude Code users, Agent engineers, and enterprise technical teams. Register through the [exclusive link](https://console.claudeapi.com?source=zcf) and contact customer support to claim free test credits. Invoicing and team onboarding are also supported.
+
+---
+
+[![Sponsor PatewayAI](./src/assets/pateway.ai-en.png)](https://pateway.ai/?ch=vnr0h5&aff=9AWWH87C)
+PatewayAI is a high-quality model API relay service provider focused on official direct connections for serious AI developers, offering the full range of Claude and Codex series models. 100% official source supply with no adulteration — open to inspection. Transparent billing with token-level invoices auditable line by line. Enterprise-grade concurrency support with a dedicated management platform for enterprise customers, including formal contracts and invoicing. PatewayAI offers an exclusive benefit for ZCF users: register via <a href="https://pateway.ai/?ch=vnr0h5&aff=9AWWH87C">this link</a> to get $3 free trial credit, recharges as low as 60% off, with bilateral invite rewards up to $150!
+
+---
+
+[![Sponsor AI API](./src/assets/302.ai-en.jpg)](https://share.302.ai/gAT9VG)
+[302.AI](https://share.302.ai/gAT9VG) is a pay-as-you-go enterprise AI resource hub that offers the latest and most comprehensive AI models and APIs on the market, along with a variety of ready-to-use online AI applications.
+
+<table>
+<tbody>
+<tr>
+<td width="180"><a href="https://www.packyapi.com/register?aff=zcf"><img src="./src/assets/packycode.png" alt="PackyCode" width="150"></a></td>
+<td>Thanks to PackyCode for sponsoring this project! PackyCode is a reliable and efficient API relay service provider, offering relay services for Claude Code, Codex, Gemini, and more. PackyCode provides special discounts for our software users: register using  <a href="https://www.packyapi.com/register?aff=zcf">this link</a>  and enter the "zcf" promo code during recharge to get 10% off.</td>
+</tr>
+<tr>
+<td width="180"><a href="https://apikey.fun/register?aff=ZCFZCF"><img src="./src/assets/apikey-fun.png" alt="APIKEY.FUN" width="150"></a></td>
+<td>Thanks to APIKEY.FUN for sponsoring this project! APIKEY.FUN is a professional enterprise-grade AI relay platform dedicated to providing stable, efficient, and low-cost API access for both companies and individual developers. The platform supports popular models including Claude, OpenAI, and Gemini, with pricing as low as 7% of official rates. Register via <a href="https://apikey.fun/register?aff=ZCFZCF">this link</a> to enjoy an exclusive offer of up to permanent 95% recharge pricing (5% off).</td>
+</tr>
+<tr>
+<td width="180"><a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF"><img src="./src/assets/AICodeMirror.jpg" alt="AICodeMirror" width="150"></a></td>
+<td>Thanks to AICodeMirror for sponsoring this project! AICodeMirror provides official high-stability relay services for Claude Code/Codex/Gemini CLI, supporting enterprise-level high concurrency, fast invoicing, and 7x24 dedicated technical support. Official channels for Claude Code/Codex/Gemini at discounts as low as 38%/2%/10.9% off, with additional discounts on top-ups! AICodeMirror offers special benefits for ZCF users: users who register through <a href="https://www.aicodemirror.com/register?invitecode=ZCFZCF">this link</a> can enjoy 20% off on first top-up, and enterprise customers can get up to 25% off!</td>
+</tr>
+<tr>
+<td width="180"><a href="https://crazyrouter.com/?utm_source=github&utm_medium=sponsor&utm_campaign=zcf&aff=yJFo"><img src="./src/assets/crazyrouter.svg" alt="Crazyrouter" width="150"></a></td>
+<td>Thanks to Crazyrouter for sponsoring this project! Crazyrouter is a high-performance AI API aggregation gateway — one API key for 300+ models (GPT, Claude, Gemini, DeepSeek, and more). All models at 55% of official pricing with auto-failover, smart routing, and unlimited concurrency. Fully OpenAI-compatible, works seamlessly with Claude Code, Codex, and Gemini CLI. Crazyrouter offers an exclusive deal for ZCF users: register via <a href="https://crazyrouter.com/?utm_source=github&utm_medium=sponsor&utm_campaign=zcf&aff=yJFo">this link</a> to get $2 free credit instantly!</td>
+</tr>
+<tr>
+<td width="180"><a href="https://aihub.top/register?aff=ZYD5VXBARHD8"><img src="./src/assets/aihub.jpg" alt="AIHub" width="150"></a></td>
+<td>Thanks to AIHub for sponsoring this project! AIHub is a high-availability AI model API relay platform for individual developers and enterprise teams, supporting Codex and Claude Code at prices below ~10% of official rates. Register via <a href="https://aihub.top/register?aff=ZYD5VXBARHD8">this link</a> and enter the promo code <strong>ZCF</strong> to claim $3 trial credit.</td>
+</tr>
+
+</tbody>
+</table>
+
 ## 💬 Community
 
 Join our Telegram group for support, discussions, and updates:
@@ -88,7 +115,7 @@ This project is inspired by and incorporates work from:
 - [ccusage](https://github.com/ryoppippi/ccusage)
 - [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD)
 
-Thanks to these community contributors for sharing their amazing projects!
+Thanks to these community contributors for sharing!
 
 ## ❤️ Support & Sponsors
 
@@ -112,8 +139,15 @@ A huge thank you to all our sponsors for their generous support!
 - [302.AI](https://share.302.ai/gAT9VG) (first corporate sponsorship 🤠)
 - [GLM](https://z.ai/subscribe?ic=8JVLJQFSKB) (first AI model sponsorship 🤖)
 - [PackyCode](https://www.packyapi.com/register?aff=zcf) (first API proxy service sponsor 🧝🏻‍♀️)
+- [APIKEY.FUN](https://apikey.fun/register?aff=ZCFZCF) (enterprise AI relay sponsor 🎁)
 - [AICodeMirror](https://www.aicodemirror.com/register?invitecode=ZCFZCF) (official high-stability relay service sponsor 🪞)
 - [UUCode](https://www.uucode.org/auth?ref=JQ2DJ1T8) (sponsored $100 proxy credits 💰)
+- [Crazyrouter](https://crazyrouter.com/?utm_source=github&utm_medium=sponsor&utm_campaign=zcf&aff=yJFo) (AI API aggregation gateway sponsor 🚀)
+- [PatewayAI](https://pateway.ai/?ch=vnr0h5&aff=9AWWH87C) (official direct-connect relay service sponsor 🛡️)
+- [code0](https://code0.ai?source=zcf) (AI coding workspace sponsor 🎁)
+- [Claude API](https://console.claudeapi.com?source=zcf) (Claude official API provider sponsor 🎁)
+
+- [AIHub](https://aihub.top/register?aff=ZYD5VXBARHD8) (high-availability AI API relay platform sponsor 🎁)
 
 【Individual Sponsors】
 
@@ -127,6 +161,7 @@ A huge thank you to all our sponsors for their generous support!
 - 初屿贤 (first Codex user sponsor 🙅🏻‍♂️)
 - Protein (first 1688 sponsor 😏)
 - [musistudio](https://github.com/musistudio) (first open source project author sponsor, the author of [CCR](https://github.com/musistudio/claude-code-router) 🤩)
+- \*年 (first 100 CNY sponsor 💴)
 - [BeatSeat](https://github.com/BeatSeat) (community expert 😎, provided $1000 Claude credits)
 - [wenwen](https://github.com/wenwen12345) (community expert 🤓, provided daily $100 Claude&GPT credits)
 - 16°C coffee (My best friend 🤪, offered ChatGPT Pro $200 package)

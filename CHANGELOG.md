@@ -1,5 +1,189 @@
 # Changelog
 
+## 3.6.10
+
+### Patch Changes
+
+- ## New Features
+  - Add AIHub as a sponsor with API provider preset for Claude Code and Codex
+  - Add AIHub sponsor brand asset and update README and multilingual documentation
+
+  ## 新功能
+  - 新增 AIHub 赞助商及 API 提供商预设，支持 Claude Code 与 Codex
+  - 新增 AIHub 赞助品牌素材，并更新 README 及多语言文档
+
+  ## Documentation
+  - Expand CLAUDE.md with updated project architecture and module documentation
+
+  ## 文档
+  - 扩展 CLAUDE.md，更新项目架构与模块文档
+
+## 3.6.9
+
+### Patch Changes
+
+- ## New Features
+  - Add code0 and Claude API sponsors with API provider presets for Claude Code and Codex
+  - Add sponsor brand assets and update README and multilingual documentation
+
+  ## 新功能
+  - 新增 code0 与 Claude API 赞助商及 API 提供商预设，支持 Claude Code 与 Codex
+  - 新增赞助品牌素材，并更新 README 及多语言文档
+
+  ## Optimization
+  - Reorganize README layout to place quick start and documentation above sponsors section
+  - Clean up trailing whitespace in documentation files
+
+  ## 优化
+  - 调整 README 布局，将快速入门与文档链接置于赞助商区块之前
+  - 清理文档文件末尾多余空白行
+
+## 3.6.8
+
+### Patch Changes
+
+- ## Fixes
+  - Sync ClaudeCodeConfigManager state after API configuration changes so the "Switch API Config" menu correctly reflects the active configuration after CCR proxy or official login setup
+  - Add sync calls across features.ts, config-operations.ts, and init.ts for all six API configuration change paths
+  - Add unit tests for configuration sync in features, config-operations, and init modules
+
+  ## 修复
+  - 在 API 配置变更后同步 ClaudeCodeConfigManager 状态，使「切换 API 配置」菜单在 CCR 代理或官方登录设置后能正确反映当前活动配置
+  - 在 features.ts、config-operations.ts 和 init.ts 的六个 API 配置变更路径中添加同步调用
+  - 为 features、config-operations 和 init 模块的配置同步补充单元测试
+
+## 3.6.7
+
+### Patch Changes
+
+- ## New Features
+  - Upgrade the MiniMax provider preset to use the M3 default model.
+
+  ## 新功能
+  - 将 MiniMax 提供商预设升级为默认使用 M3 模型。
+
+  ## Fixes
+  - Use a cross-platform CCometixLine status command so generated Claude Code status line configuration works consistently across macOS, Linux, Windows, and Termux.
+  - Update DeepWiki MCP configuration typing, tests, and multilingual documentation.
+
+  ## 修复
+  - 使用跨平台的 CCometixLine 状态栏命令，确保生成的 Claude Code 状态栏配置在 macOS、Linux、Windows 和 Termux 中保持一致。
+  - 更新 DeepWiki MCP 配置类型、测试与多语言文档。
+
+## 3.6.6
+
+### Patch Changes
+
+- ## New Features
+  - Add APIKEY.FUN as a sponsor/provider option and update provider presets for improved sponsor visibility.
+  - Replace and add sponsor brand assets to support the refreshed sponsor presentation across channels.
+
+  ## 新功能
+  - 新增 APIKEY.FUN 赞助商/提供商入口，并更新预设配置以提升赞助展示一致性。
+  - 替换并新增赞助品牌素材，支持多渠道统一展示新版赞助内容。
+
+  ## Documentation
+  - Update README and localized docs (EN/JA/ZH-CN) to reflect the latest sponsorship layout and assets.
+
+  ## 文档
+  - 更新 README 与多语言文档（EN/JA/ZH-CN），同步最新赞助展示布局与素材引用。
+
+## 3.6.5
+
+### Patch Changes
+
+- ## New Features
+  - Add `/zcf-add-sponsor` project command for quick sponsor onboarding (sponsor list by default, with optional `--with-ad` and `--with-api` flags)
+  - Add PatewayAI as a new corporate sponsor with API provider preset for both Claude Code and Codex
+  - Add DeepSeek v4 provider preset for Claude Code via Anthropic-compatible endpoint (closes #348)
+
+  ## 新功能
+  - 新增 `/zcf-add-sponsor` 项目命令，快速完成赞助商上线（默认仅追加赞助商列表，可选 `--with-ad` / `--with-api` 拓展广告位与 API 预设）
+  - 新增 PatewayAI 企业赞助商，并提供同时支持 Claude Code 与 Codex 的 API 提供商预设
+  - 新增 DeepSeek v4 API 提供商预设（Claude Code，通过 Anthropic 兼容端点接入，关联 #348）
+
+  ## Fixes
+  - Add `pnpm`, `git`, `node`, `mv` to `/zcf-add-sponsor` allowed-tools to align with sibling commands and unblock the documented validation step
+  - Swap DeepSeek `defaultModels` order so `deepseek-v4-pro` is the primary model and `deepseek-v4-flash` maps to the Haiku slot
+
+  ## 修复
+  - 为 `/zcf-add-sponsor` 命令补全 `pnpm`、`git`、`node`、`mv` 工具白名单，与其他同类命令对齐，确保文档中的校验步骤可执行
+  - 调整 DeepSeek 预设的 `defaultModels` 顺序，使 `deepseek-v4-pro` 作为主模型，`deepseek-v4-flash` 对应 Haiku 槽位
+
+## 3.6.4
+
+### Patch Changes
+
+- ## Fixes
+  - Update MiniMax provider preset to M2.7 models and correct API endpoint (api.minimax.io)
+  - Align MiniMax documentation (en, zh-CN, ja-JP) with current models and platform link
+  - Add unit test coverage for MiniMax provider configuration
+  - Use lowercase `glm-5` as the default model for Bailian Coding API preset
+  - Add unit test coverage for Bailian Coding default models
+
+  ## 修复
+  - 更新 MiniMax 提供商预设为 M2.7 系列模型并修正 API 端点（api.minimax.io）
+  - 同步 MiniMax 文档（中英日）中的模型与平台链接说明
+  - 为 MiniMax 提供商配置补充单元测试
+  - 百炼 Coding 预设默认模型改为小写 `glm-5`
+  - 为百炼 Coding 默认模型补充单元测试
+
+  ## Documentation
+  - Rename sponsorship section titles to "Sponsors" across README (en, zh-CN, ja-JP)
+  - Refine sponsorship wording and extend sponsor entries where applicable
+
+  ## 文档
+  - 将各语言 README 中赞助板块标题统一为「赞助商」等对应表述
+  - 优化赞助说明措辞并补充日文与中文 README 中的赞助条目
+
+## 3.6.3
+
+### Patch Changes
+
+- ## New Features
+  - Add BMAD multi-agent commands and workflows (bmad-agent-_, bmad-bmm-_, bmad-editorial-_, bmad-review-_, bmad-help, bmad-party-mode, etc.)
+  - Add Crazyrouter as a new sponsor in documentation and API provider presets
+
+  ## 新功能
+  - 新增 BMAD 多智能体命令与工作流（bmad-agent-_、bmad-bmm-_、bmad-editorial-_、bmad-review-_、bmad-help、bmad-party-mode 等）
+  - 在文档与 API 提供商预设中新增 Crazyrouter 赞助商
+
+  ## Documentation
+  - Update README (en, zh-CN, ja-JP) and docs with Crazyrouter sponsorship
+  - Add Crazyrouter to API providers documentation (en, zh-CN, ja-JP)
+
+  ## 文档
+  - 更新 README（中英日）及文档中的 Crazyrouter 赞助信息
+  - 在 API 提供商文档（中英日）中新增 Crazyrouter
+
+## 3.6.2
+
+### Patch Changes
+
+- ## New Features
+  - Upgrade bmad-init template from V4 to V6
+  - Allow skipping output style selection during init
+  - Update API provider presets and add new services
+
+  ## 新功能
+  - 将 bmad-init 模板从 V4 升级至 V6
+  - 支持在初始化时跳过输出风格选择
+  - 更新 API 提供商预设并新增服务
+
+  ## Fixes
+  - Address Codex review feedback for codex-backup (skip tmp dir, handle dangling symlinks)
+  - Address Qodo/Cursor/Codex review feedback for output-style
+
+  ## 修复
+  - 根据 Codex 评审反馈改进 codex-backup（跳过 tmp 目录、处理悬空符号链接）
+  - 根据 Qodo/Cursor/Codex 评审反馈改进 output-style
+
+  ## Documentation
+  - Update sponsorship details in README and documentation files
+
+  ## 文档
+  - 更新 README 与文档中的赞助信息
+
 ## 3.6.1
 
 ### Patch Changes

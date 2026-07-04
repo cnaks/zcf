@@ -16,6 +16,7 @@ ZCF 目前支持以下 API 提供商预设：
 | `packycode` | PackyCode | PackyCode API 服务 | ✅ | ✅ | `auth_token` |
 | `aicodemirror` | AICodeMirror | 全球高保线路 | ✅ | ✅ | `auth_token` |
 | `aicodemirror-cn` | AICodeMirror CN | 国内优化线路 | ✅ | ✅ | `auth_token` |
+| `crazyrouter` | Crazyrouter | AI API 聚合网关 | ✅ | ✅ | `api_key` |
 | `glm` | GLM (智谱AI) | 智谱 AI 服务 | ✅ | ✅ | `auth_token` |
 | `minimax` | MiniMax | MiniMax API 服务 | ✅ | ✅ | `auth_token` |
 | `kimi` | Kimi (月之暗面) | Moonshot AI 服务 | ✅ | ✅ | `auth_token` |
@@ -96,6 +97,32 @@ npx zcf init -s -p aicodemirror-cn -k "your-auth-token"
 npx zcf init -s -T codex -p aicodemirror-cn -k "your-auth-token"
 ```
 
+### Crazyrouter
+
+**官方链接**：[Crazyrouter](https://crazyrouter.com)
+
+**特点**：
+- 🚀 高性能 AI API 聚合网关
+- 🔑 一个 Key 调用 300+ 模型（GPT、Claude、Gemini、DeepSeek 等）
+- 💰 全模型低至官方价格 5.5 折
+- 🔄 自动故障转移、智能路由、无限并发
+- ✅ 完全兼容 OpenAI 格式，可无缝接入 Claude Code、Codex、Gemini CLI
+
+**配置信息**：
+- **Claude Code Base URL**: `https://crazyrouter.com`
+- **Codex Base URL**: `https://crazyrouter.com/v1`
+- **认证方式**: `api_key`
+- **Codex Wire API**: `responses`
+
+**使用示例**：
+```bash
+# Claude Code
+npx zcf init -s -p crazyrouter -k "your-api-key"
+
+# Codex
+npx zcf init -s -T codex -p crazyrouter -k "your-api-key"
+```
+
 ### GLM (智谱AI)
 
 **提供商名称**：智谱 AI (GLM)
@@ -126,18 +153,17 @@ npx zcf init -s -T codex -p glm -k "your-auth-token"
 
 **提供商名称**：MiniMax
 
+**官方链接**：[MiniMax 平台](https://platform.minimax.io)
+
 **特点**：
-- 🎯 专注于 AI 模型服务
-- 💡 支持多种应用场景
-- 🔧 灵活的配置选项
+- 🎯 高性能 AI 模型 (MiniMax-M3)
+- 💡 204,800 tokens 上下文窗口，最大 192K 输出
+- 🔧 兼容 Anthropic API，适配 Claude Code
 
 **配置信息**：
-- **Claude Code Base URL**: `https://api.minimaxi.com/anthropic`
-- **Codex Base URL**: `https://api.minimaxi.com/v1`
+- **Claude Code Base URL**: `https://api.minimax.io/anthropic`
 - **认证方式**: `auth_token`
-- **Codex Wire API**: `chat`
-- **Claude Code 默认模型**: `MiniMax-M2`
-- **Codex 默认模型**: `MiniMax-M2`
+- **Claude Code 默认模型**: `MiniMax-M3`（主力）、`MiniMax-M2.7-highspeed`（高速）
 
 **使用示例**：
 ```bash
